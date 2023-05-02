@@ -4,7 +4,7 @@ user="adam"
 key_url="https://github.com/adamyordan.keys"
 
 # add user
-adduser "" "${user}"
+adduser "${user}"
 
 # add user as sudoer
 usermod -aG wheel "${user}"
